@@ -1,14 +1,14 @@
 (* Welford's online algorithm for rolling mean and variance *)
 type welford_state = {
-  n     : int;
-  mean  : float;
-  m2    : float;
+  n    : int;
+  mean : float;
+  m2   : float;
 }
 
 let welford_empty = { n = 0; mean = 0.0; m2 = 0.0 }
 
 let welford_update state x =
-  let n    = state.n + 1 in
+  let n      = state.n + 1 in
   let delta  = x -. state.mean in
   let mean   = state.mean +. delta /. float_of_int n in
   let delta2 = x -. mean in
