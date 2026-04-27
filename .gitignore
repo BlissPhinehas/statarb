@@ -1,0 +1,9 @@
+_build/
+*.byte
+*.native
+*.install
+.opam-switch/
+*.pyc
+__pycache__/
+*.csv
+!data/.gitkeep
