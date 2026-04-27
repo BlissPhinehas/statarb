@@ -1,3 +1,4 @@
 (library
  (name statarb)
- (modules stats signals))
+ (modules stats signals)
+ (wrapped false))

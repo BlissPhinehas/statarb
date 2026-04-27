@@ -1,5 +1,3 @@
-open Statarb
-
 let () =
   (* Simulated price series for two correlated assets (e.g. GLD / SLV) *)
   (* In a real system these would be loaded from CSV or a market data API *)
