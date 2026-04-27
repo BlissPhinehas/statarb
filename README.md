@@ -146,6 +146,9 @@ Also modify `python/fetch_data.py` to change date range:
 ```python
 yf.download("GLD", start="2023-01-01", end="2024-01-01", ...)
 ```
+
+<img width="1784" height="1328" alt="image" src="https://github.com/user-attachments/assets/7638997b-8e99-48e3-9fc4-f7f1b58d05a7" />
+
 ## Limitations & Future Work
 
 - **No transaction costs**: Real trading includes fees/slippage
